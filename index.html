@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo e Cidade: Contrastes e Harmonia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>A Harmonia entre o Campo e a Cidade</h1>
+            <p>Descubra a beleza, os desafios e as oportunidades de cada ambiente.</p>
+            <a href="#explorar" class="btn-primary">Explorar Mais</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section-card campo animate-fade-in" id="explorar">
+            <div class="section-icon"><i class="fas fa-seedling"></i></div>
+            <h2>O Campo: Serenidade e Sustento</h2>
+            <p>A vida rural oferece um refúgio da agitação, com ar puro, paisagens expansivas e um ritmo de vida conectado à natureza e à produção de alimentos.</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Paz e sossego inigualáveis</li>
+                <li><i class="fas fa-check-circle"></i> Conexão profunda com a natureza</li>
+                <li><i class="fas fa-check-circle"></i> Fonte de produção e sustentabilidade</li>
+            </ul>
+            <figure>
+                <img src="turismo-rural-dia-de-campo-seguro-itu.jpg" alt="Um vasto campo verde com árvores e uma fazenda ao fundo, sob um céu azul." class="img-secao">
+                <figcaption>Paisagem rural, um convite à tranquilidade.</figcaption>
+            </figure>
+            <a href="#" class="btn-secondary">Saiba Mais sobre o Campo</a>
+        </section>
+
+        <section class="section-card cidade animate-fade-in">
+            <div class="section-icon"><i class="fas fa-city"></i></div>
+            <h2>A Cidade: Dinamismo e Oportunidade</h2>
+            <p>Os centros urbanos pulsam com inovação, cultura e uma vasta gama de oportunidades. Luzes brilhantes, movimento constante e acesso a tudo que você precisa.</p>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Vastas oportunidades de carreira</li>
+                <li><i class="fas fa-check-circle"></i> Riqueza cultural e entretenimento</li>
+                <li><i class="fas fa-check-circle"></i> Infraestrutura e serviços completos</li>
+            </ul>
+            <figure>
+                <img src="cidades-inteligentes2.jpg" alt="Skyline da cidade à noite com luzes." class="img-secao">
+                <figcaption>O dinamismo e as luzes da vida urbana.</figcaption>
+            </figure>
+            <a href="#" class="btn-secondary">Saiba Mais sobre a Cidade</a>
+        </section>
+
+        <section class="section-card contraste animate-fade-in">
+            <div class="section-icon"><i class="fas fa-balance-scale-left"></i></div>
+            <h2>Campo vs. Cidade: Uma Escolha de Estilo de Vida</h2>
+            <p>Cada ambiente oferece uma tapeçaria única de experiências e desafios. Qual deles ressoa mais com seus valores e aspirações?</p>
+            <div class="cards-grid">
+                <div class="card campo-card animate-slide-up">
+                    <h3>Viver no Campo <i class="fas fa-leaf"></i></h3>
+                    <p>Ideal para quem busca calma, sustentabilidade e um estilo de vida mais simples e conectado à terra.</p>
+                </div>
+                <div class="card cidade-card animate-slide-up">
+                    <h3>Viver na Cidade <i class="fas fa-building"></i></h3>
+                    <p>Perfeito para quem busca agitação, inovação, conveniência e acesso a diversas comodidades e culturas.</p>
+                </div>
+                <div class="card beneficios-card animate-slide-up">
+                    <h3>Benefícios Compartilhados <i class="fas fa-heart"></i></h3>
+                    <p>Ambos os mundos oferecem a chance de crescimento pessoal e a construção de comunidades vibrantes.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Campo e Cidade. Todos os direitos reservados. | Desenvolvido com paixão.</p>
+    </footer>
+
+    <div class="accessibility-bar">
+        <button id="font-increase" title="Aumentar tamanho da fonte"><i class="fas fa-plus"></i></button>
+        <button id="font-decrease" title="Diminuir tamanho da fonte"><i class="fas fa-minus"></i></button>
+        <button id="toggle-contrast" title="Alternar alto contraste"><i class="fas fa-adjust"></i></button>
+        <button id="reset-accessibility" title="Redefinir acessibilidade"><i class="fas fa-undo"></i></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
